@@ -9,13 +9,14 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tmhedberg/matchit'
 Plugin 'wincent/command-t'
 Plugin 'fatih/vim-go'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'elixir-lang/vim-elixir'
+Plugin 'leafgarland/typescript-vim'
 
 "
 " All of your Plugins must be added before the following line
