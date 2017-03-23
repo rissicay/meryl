@@ -17,6 +17,7 @@ Plugin 'fatih/vim-go'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'othree/yajs.vim'
 
 "
 " All of your Plugins must be added before the following line
