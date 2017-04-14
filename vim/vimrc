@@ -87,6 +87,8 @@ nmap <silent> <leader>/ :nohlsearch<CR>
 
 " Making NERDTree window smaller
 let g:NERDTreeWinSize=35
+let NERDTreeShowHidden=1
+nmap <Leader>r :NERDTreeFocus<cr>R<c-w><c-p>
 
 " Easy window navigation
 map <C-h> <C-w>h
@@ -126,3 +128,8 @@ set modeline
 set modelines=3
 
 syntax on
+
+" Prevent command-t from scanning shit
+set wildignore=*.swp,*.bak,*.pyc,*.class,*.jar,*.gif,*.png,*.jpg,node_modules/*,deps/*,_build/*
+
+autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
