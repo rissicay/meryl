@@ -19,6 +19,7 @@ Plugin 'elixir-lang/vim-elixir'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'othree/yajs.vim'
 Plugin 'djoshea/vim-autoread'
+Plugin 'tomlion/vim-solidity'
 
 "
 " All of your Plugins must be added before the following line
